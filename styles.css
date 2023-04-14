@@ -1,0 +1,60 @@
+body, html{
+    height: 100%;
+}
+
+
+ .content, .hero-text{
+    font-family: fantasy;
+}
+
+.hero{
+     background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(48, 16, 16, 0.1)), url("/images/cooking-5880136_1920.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 20px;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 2.5rem;
+    letter-spacing: 3px;;
+  }
+
+.recipe{
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+.content{
+    text-align: center;
+    padding-bottom: 2.5rem;
+}
+
+.recipe a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.recipe a:hover{
+    text-decoration: underline;
+}
+
+.card-img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+}
+
+
+.content h2{
+    font-size: 2rem;
+}
