@@ -1,14 +1,14 @@
 body, html{
     height: 100%;
+    margin: 0;
 }
 
-
- .content, .hero-text{
+ .content, .hero-text, h1, h2{
     font-family: fantasy;
 }
 
 .hero{
-     background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(48, 16, 16, 0.1)), url("/images/cooking-5880136_1920.jpg");
+     background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(48, 16, 16, 0.1)), url("./images/cooking-5880136_1920.jpg");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
@@ -57,4 +57,43 @@ body, html{
 
 .content h2{
     font-size: 2rem;
+}
+
+.recipe-content{
+   max-width: 1200px;
+   margin: 0 auto;
+   font-family: sans-serif;
+   padding-bottom: 1rem;
+   /* background-color:rgb(253, 252, 239); */
+   padding: 1rem 2rem;
+   font-size: 1.5rem;
+}
+
+.recipe-content h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.recipe-content h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.intro{
+    text-align: center;
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+}
+
+.intro h1{
+    margin-bottom: 0
+}
+
+.intro p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+ul, ol{
+    line-height: 2.5;
 }
